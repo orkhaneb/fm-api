@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\FmApi\\FmApi\\FmAPI.csproj": {}
+    "C:\\Users\\User\\Desktop\\fm-api\\FmApi\\FmAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\FmApi\\FmApi\\FmAPI.csproj": {
+    "C:\\Users\\User\\Desktop\\fm-api\\FmApi\\FmAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\FmApi\\FmApi\\FmAPI.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\fm-api\\FmApi\\FmAPI.csproj",
         "projectName": "FmAPI",
-        "projectPath": "C:\\Users\\User\\source\\repos\\FmApi\\FmApi\\FmAPI.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\fm-api\\FmApi\\FmAPI.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\FmApi\\FmApi\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\fm-api\\FmApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,20 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
